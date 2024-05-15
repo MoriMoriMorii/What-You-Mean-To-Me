@@ -1,0 +1,1 @@
+If creating custom thumbnails, the full image needs to be 440x440. The "inner circle" image needs to be 360x360, though 365x365 is usually easier for aligning over existing thumbnails.
