@@ -116,7 +116,13 @@ label act1:
     mc "Gotcha!"
     s "Uwaaa!"
     show sayori happ ce cm at t11
+    $ af_enabled = True
     s om "You got me~"
     show sayori cm oe
     mc "What's got you guys in such a rush? It's 30 minutes 'til school starts anyway..."
+    $ af_enabled = False
+    show sayori curi om oe at h11
+    "My voice is cut off by the sounds of running behind us."
+    $ af_enabled = True
+    mc "What in the world?"
     return
